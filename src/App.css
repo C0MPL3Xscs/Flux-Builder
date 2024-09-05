@@ -1,0 +1,24 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+canvas {
+  background-color: #fff;
+  border: 2px solid #dcdcdc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  cursor: crosshair;
+}

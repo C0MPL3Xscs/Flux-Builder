@@ -9,6 +9,10 @@ Flux Builder is an, open-source tool designed to simplify the creation and manag
 - **Text Annotations:** Add and edit text to annotate your diagrams.
 - **Export & Share:** Save your diagrams and share them with your team or export them for integration into other tools.
 
+UI:
+![image](https://github.com/user-attachments/assets/45d90b51-7750-47fa-aa78-9753070954c9)
+
+
 ## Installation
 
 To get started with Flux Builder, clone the repository and install the dependencies:

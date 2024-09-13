@@ -2,6 +2,8 @@
 
 Flux Builder is an, open-source tool designed to simplify the creation and management of diagrams, flowcharts, and workflows. With a focus on ease-of-use and flexibility, Flux Builder helps developers and designers to visually craft and organize their ideas with precision.
 
+Try it out: https://flux-builder.sonicarts.xyz
+
 ## Current Features
 
 - **Drag-and-Drop Interface:** Easily add, move, and arrange shapes and lines.

@@ -16,12 +16,14 @@ const Alert = ({ message, show, onClose }) => {
 
   return (
     <div
-      className={`fixed top-4 right-4 bg-green-500 bg-opacity-45 text-white px-4 py-2 rounded shadow-lg transition-opacity duration-300 ${
-        show ? 'opacity-100' : 'opacity-0'
-      }`}
-      style={{ zIndex: 9999 }} // Ensure the alert is above other elements
+      className={`fixed top-6 right-6 bg-white/10 backdrop-blur-xl border border-white/20 text-white px-6 py-4 rounded-2xl shadow-2xl transition-all duration-500 ease-out transform ${show ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4 pointer-events-none'
+        }`}
+      style={{ zIndex: 9999 }}
     >
-      {message}
+      <div className="flex items-center gap-3">
+        <div className="w-2 h-2 rounded-full bg-green-400 shadow-[0_0_10px_rgba(74,222,128,0.5)]"></div>
+        <span className="font-medium tracking-wide text-sm">{message}</span>
+      </div>
     </div>
   );
 };
